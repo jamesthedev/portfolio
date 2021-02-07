@@ -28,9 +28,10 @@ export default {
                     title: "This Portfolio", 
                     description: [
                         "Vue.js + BootstrapVue",
-                        "Plenty of custom CSS and CSS grid (especially on this page)"                
+                        "Plenty of custom CSS and CSS grid (especially on this page)",
+                        "Very responsive"                
                     ], 
-                    gitHubLink: "https://github.com/jamesthedev/60-120"
+                    gitHubLink: "https://github.com/jamesthedev/portfolio"
                 },
                 {
                     title: "60/120", 
@@ -39,8 +40,7 @@ export default {
                         "> 40 ratings, 74% are 5 stars",
                         "I have managed and updated this app for nearly a year. Several users have reached out to me with questions and feature requests. I have been very responsive and quick to fix bugs.",
                         "One user who emailed me actually offered me contract work because he was so impressed with my work and consistent app improvements.",
-                        "The Fitbit SDK uses a custom version of CSS/HTML/Javascript"
-                
+                        "The Fitbit SDK uses a custom version of CSS/HTML/Javascript"                
                     ], 
                     appLink: "https://gallery.fitbit.com/details/446adbb9-9530-4bee-8372-7d1bc600d271",
                     gitHubLink: "https://github.com/jamesthedev/60-120"
@@ -63,7 +63,7 @@ export default {
     }
 
     .projects:hover {
-       transform: scale(1.05);
+       transform: scale(1.02);
     }
 
     #projectArea {

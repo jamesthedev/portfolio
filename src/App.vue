@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar id="appNavBar">
+    <b-navbar id="appNavBar" sticky>
       <b-navbar-nav>
           <b-nav-item variant="dark" to="/" exact>Home</b-nav-item>
           <b-nav-item to="/projects">Projects</b-nav-item>    
@@ -9,7 +9,7 @@
           <b-nav-item to="/contact">Contact Me!</b-nav-item>    
       </b-navbar-nav>
     </b-navbar> 
-    <router-view />
+    <router-view id="appBody" />
   </div>
 </template>
 
@@ -45,5 +45,9 @@ export default {
 
   .navbar-nav .nav-link:hover{
     color:white!important;
+  }
+
+  #appBody {
+    margin: 0% 3% 0% 3%;
   }
 </style>

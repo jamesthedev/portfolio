@@ -4,7 +4,9 @@ import { BootstrapVue } from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import router from './router';
+import VueTimeline from "@growthbunker/vuetimeline";
 
+Vue.use(VueTimeline);
 Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false;

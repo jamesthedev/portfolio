@@ -2,7 +2,7 @@
     <div>
         <p class='pageTitle'>Send me an email so we can get in touch!</p>
 
-        <form id="frmEmail" body="TEST" subject="TESTSU" method="post" enctype="text/plain">
+        <form id="frmEmail" method="post" enctype="text/plain">
         Your Name:<br>
         <b-form-input v-model="name"></b-form-input>
         Message:<br>

@@ -29,7 +29,8 @@ export default {
                     description: [
                         "Vue.js + BootstrapVue",
                         "Plenty of custom CSS and CSS grid (especially on this page)",
-                        "Very responsive"                
+                        "Still a work in progress"
+                        //"Very responsive" //NOT YET               
                     ], 
                     gitHubLink: "https://github.com/jamesthedev/portfolio"
                 },

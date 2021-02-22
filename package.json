@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@growthbunker/vuetimeline": "^0.1.17",
-    "animate.css": "^3.5.1",
+    "animate.css": "^3.7.2",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",

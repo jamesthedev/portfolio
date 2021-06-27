@@ -22,11 +22,10 @@
       <b-button 
         class="homePageBtns" 
         variant="outline-success"
-        href="resume.pdf"
+        href="../assets/resume.pdf"
         target="_blank"
-        download="2021 Resume.pdf"
       >
-        Download a copy of my resume
+        See My Resume
       </b-button>
     </b-form>
 
@@ -37,63 +36,15 @@
     >
       <div v-if="showTimeline == true" id="timelineArea">
         <vue-timeline-update
-          :date="new Date('2015')"
-          title="December 2015"
-          description="Enlisted in the Army National Guard as a network cable systems installer/maintainer"
-          category="Work Experience"
-          color="turquoise"
-          icon="code"
-          key="1"
-        />
-
-        <vue-timeline-update
-          :date="new Date('2018')"
-          title="December 2018"
-          description="Graduated from Oklahoma City Community College with an associate in applied science in Computer Science; computer programming minor"
-          category="Education"
-          color="orange"
-          icon="code"
-          key="2"
-        />
-
-        <vue-timeline-update
-          :date="new Date('2018')"
-          title="December 2018"
-          description="Hired by Rome Research Corp. to work on Tinker Air Force base as a client system support technician"
-          category="Work Experience"
-          color="blue"
-          icon="code"
-          key="3"
-        />
-
-        <vue-timeline-update
-          :date="new Date('2019')"
-          title="February 2019"
-          description="Earned my CompTIA Security+ certification. I passed on the first try!"
-          category="Certification"
-          color="green"
-          icon="code"
-          key="4"
-        />
-
-        <vue-timeline-update
-          :date="new Date('2019')"
-          title="May 2019"
-          description="Hired by Delaware Nation Industries to work on Tinker Air Force base as a full-stack .NET developer"
+          :date="new Date('2020')"
+          title="April 2020"
+          description="Promoted to lead software developer at Delaware Nation Industries"
           category="Work Experience"
           color="blue"
           icon="code"
           key="5"
-        />
-
-        <vue-timeline-update
-          :date="new Date('2020')"
-          title="May 2020"
-          description="Graduated from American Military University with a BS in IT; concentration on software development"
-          category="Education"
-          color="orange"
-          icon="code"
-          key="6"
+          thumbnail="../assets/coding.png"
+          theme="dark"
         />
 
         <vue-timeline-update
@@ -104,8 +55,78 @@
           color="green"
           icon="code"
           key="7"
+          thumbnail="../assets/college.jpg"
         />
-      </div>
+
+        <vue-timeline-update
+          :date="new Date('2020')"
+          title="May 2020"
+          description="Graduated from American Military University with a BS in IT; concentration on software development"
+          category="Education"
+          color="orange"
+          icon="code"
+          key="6"
+          thumbnail="../assets/college.jpg"
+        />
+
+        <vue-timeline-update
+          :date="new Date('2019')"
+          title="May 2019"
+          description="Hired by Delaware Nation Industries to work on Tinker Air Force base as a full-stack .NET developer"
+          category="Work Experience"
+          color="blue"
+          icon="code"
+          key="5"
+          thumbnail="../assets/coding.png"
+
+        />
+
+        <vue-timeline-update
+          :date="new Date('2019')"
+          title="February 2019"
+          description="Earned my CompTIA Security+ certification. I passed on the first try!"
+          category="Certification"
+          color="green"
+          icon="code"
+          key="4"
+          thumbnail="../assets/security.png"
+        />
+
+        <vue-timeline-update
+          :date="new Date('2018')"
+          title="December 2018"
+          description="Hired by Rome Research Corp. to work on Tinker Air Force base as a client system support technician"
+          category="Work Experience"
+          color="blue"
+          icon="code"
+          key="3"
+          thumbnail="../assets/IT.png"
+
+        />
+        
+        <vue-timeline-update
+          :date="new Date('2018')"
+          title="December 2018"
+          description="Graduated from Oklahoma City Community College with an associate in applied science in Computer Science; computer programming minor"
+          category="Education"
+          color="orange"
+          icon="code"
+          key="2" 
+          thumbnail="../assets/college.jpg"         
+        />
+
+        <vue-timeline-update
+          :date="new Date('2015')"
+          title="December 2015"
+          description="Enlisted in the Army National Guard as a network cable systems installer/maintainer"
+          category="Work Experience"
+          color="turquoise"
+          icon="code"
+          key="1"
+          thumbnail="../assets/army.png"
+        />
+      </div> 
+
     </transition>
   </div>
 </template>
@@ -172,5 +193,13 @@ export default {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", 
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  margin-left: 15%;
+  margin-right: 15%;
 }
+
+.gb-vue-timeline-update__thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
 </style>

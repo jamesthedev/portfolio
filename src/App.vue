@@ -26,6 +26,7 @@ export default {
   .pageTitle {
       text-align: center;
       font-size: 1.7em;
+      margin-top: 20px;
   }
 
   #app .router-link-active {
@@ -36,7 +37,7 @@ export default {
   #appNavBar {
     background-color: rgb(39, 39, 43);
     box-shadow: 0px 4px 7px rgb(92, 89, 110);
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
   }
 
   .navbar-nav .nav-link{
@@ -48,6 +49,10 @@ export default {
   }
 
   #appBody {
-    margin: 0% 3% 0% 3%;
+    /*margin: 0% 3% 0% 3%;*/
+  }
+
+  .appPage {
+    margin: 0% 5% 0% 5%;
   }
 </style>

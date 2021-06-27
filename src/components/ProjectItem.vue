@@ -2,22 +2,21 @@
     <div class="projectItem">
         <div class="itemTitle">
             {{title}}
-            <hr>
+            <hr class="titleDivider">
         </div>
 
-        <div>
+        <div class="descriptionArea">
             <ul>
                 <li v-for="(item, index) in descriptionList" :key="index">{{item}}</li>                
             </ul>
         </div>   
 
         <div class="linkArea">
-            <hr>
             <span v-if="appLink">
-                <b-link :href="appLink" target="_blank">App Link</b-link> |        
+                <b-link :href="appLink" target="_blank" class="projectLinks">App Link</b-link> |
             </span>
             
-            <b-link :href="gitHubLink" target="_blank">Github Link</b-link>
+            <b-link :href="gitHubLink" target="_blank" class="projectLinks">Github Link</b-link>
         </div>
     </div>
 </template>
@@ -32,11 +31,15 @@ export default {
 <style scoped>
     .linkArea, .itemTitle {
         text-align: center;
-        margin: 4px;        
+        margin: 4px;  
     }
 
     .linkArea {
+        background-color: rgb(235, 226, 226);   
         align-self: bottom;
+        margin: 0;   
+        padding-top: 5px;     
+        border-radius: 0px 0px 6px 6px;
     }
 
     .itemTitle {
@@ -45,5 +48,14 @@ export default {
 
     hr {
         margin: 0;
+    }
+
+    .descriptionArea {
+        width: 90%;
+    }
+
+    .titleDivider {
+        width: 80%;
+        margin: 0px auto 10px auto;
     }
 </style>

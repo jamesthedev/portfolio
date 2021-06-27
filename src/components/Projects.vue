@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="appPage">
         <p class='pageTitle'>Here's a list of projects I've worked on during my own time. Feel free to check out the code on my Github.</p>
         <div id="projectArea">
             <ProjectItem 
@@ -38,13 +38,21 @@ export default {
                     title: "60/120", 
                     description: [
                         "Fitness app for Fitbit devices",
-                        "> 40 ratings, 74% are 5 stars",
+                        "> 40 ratings; 70% are 5 stars",
                         "I have managed and updated this app for nearly a year. Several users have reached out to me with questions and feature requests. I have been very responsive and quick to fix bugs.",
-                        "One user who emailed me actually offered me contract work because he was so impressed with my work and consistent app improvements.",
                         "The Fitbit SDK uses a custom version of CSS/HTML/Javascript"                
                     ], 
                     appLink: "https://gallery.fitbit.com/details/446adbb9-9530-4bee-8372-7d1bc600d271",
                     gitHubLink: "https://github.com/jamesthedev/60-120"
+                },
+                {
+                    title: "File Creator",
+                    description: [
+                        "A tool I made in college to quickly create files with a user-provided filename, extension, and file path",
+                        "I recently went back to this project and made several improvements to it.",
+                        "Very helpful tool as a developer when I need to quickly make a bunch of files for a project."
+                    ],
+                    gitHubLink: "https://github.com/jamesthedev/File-Creator"
                 }
             ]
         }
@@ -54,9 +62,9 @@ export default {
 
 <style scoped>
     .projects {
-        border-radius: 15px;
         margin: 10px; 
-        box-shadow: 0px 0px 8px rgb(159, 151, 124);
+        border-radius: 6px;
+        box-shadow: 0px 2px 10px rgb(159, 151, 124);
         transition: transform .2s;
         display: grid;
         grid-template-columns: auto;
@@ -64,7 +72,7 @@ export default {
     }
 
     .projects:hover {
-       transform: scale(1.02);
+       transform: scale(1.009);
     }
 
     #projectArea {

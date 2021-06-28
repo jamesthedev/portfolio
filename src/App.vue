@@ -48,10 +48,6 @@ export default {
     color:white!important;
   }
 
-  #appBody {
-    /*margin: 0% 3% 0% 3%;*/
-  }
-
   .appPage {
     margin: 0% 5% 0% 5%;
   }

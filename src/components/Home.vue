@@ -22,7 +22,7 @@
       <b-button 
         class="homePageBtns" 
         variant="outline-success"
-        href="../assets/resume.pdf"
+        href="resume.pdf"
         target="_blank"
       >
         See My Resume

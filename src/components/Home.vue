@@ -43,7 +43,7 @@
           color="blue"
           icon="code"
           key="5"
-          thumbnail="../assets/coding.png"
+          thumbnail="coding.png"
           theme="dark"
         />
 
@@ -55,7 +55,7 @@
           color="green"
           icon="code"
           key="7"
-          thumbnail="../assets/college.jpg"
+          thumbnail="college.jpg"
         />
 
         <vue-timeline-update
@@ -66,7 +66,7 @@
           color="orange"
           icon="code"
           key="6"
-          thumbnail="../assets/college.jpg"
+          thumbnail="college.jpg"
         />
 
         <vue-timeline-update
@@ -77,7 +77,7 @@
           color="blue"
           icon="code"
           key="5"
-          thumbnail="../assets/coding.png"
+          thumbnail="coding.png"
 
         />
 
@@ -89,7 +89,7 @@
           color="green"
           icon="code"
           key="4"
-          thumbnail="../assets/security.png"
+          thumbnail="security.png"
         />
 
         <vue-timeline-update
@@ -100,8 +100,7 @@
           color="blue"
           icon="code"
           key="3"
-          thumbnail="../assets/IT.png"
-
+          thumbnail="IT.png"
         />
         
         <vue-timeline-update
@@ -112,7 +111,7 @@
           color="orange"
           icon="code"
           key="2" 
-          thumbnail="../assets/college.jpg"         
+          thumbnail="college.jpg"         
         />
 
         <vue-timeline-update
@@ -123,10 +122,9 @@
           color="turquoise"
           icon="code"
           key="1"
-          thumbnail="../assets/army.png"
+          thumbnail="army.png"
         />
       </div> 
-
     </transition>
   </div>
 </template>

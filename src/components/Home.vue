@@ -61,7 +61,7 @@
         <vue-timeline-update
           :date="new Date('2020')"
           title="May 2020"
-          description="Graduated from American Military University with a BS in IT; concentration on software development"
+          description="Graduated summa cum laude from American Military University with a BS in IT; concentration on software development"
           category="Education"
           color="orange"
           icon="code"
@@ -198,6 +198,8 @@ export default {
 .gb-vue-timeline-update__thumbnail {
   width: 100px;
   height: 100px;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 </style>

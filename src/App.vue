@@ -51,4 +51,10 @@ export default {
   .appPage {
     margin: 0% 5% 0% 5%;
   }
+
+  @media screen and (max-width: 481px) {
+
+
+
+  }
 </style>

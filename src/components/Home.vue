@@ -36,8 +36,8 @@
     >
       <div v-if="showTimeline == true" id="timelineArea">
         <vue-timeline-update
-          :date="new Date('2020')"
-          title="April 2020"
+          :date="new Date('2021')"
+          title="April 2021"
           description="Promoted to lead software developer at Delaware Nation Industries"
           category="Work Experience"
           color="blue"

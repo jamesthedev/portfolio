@@ -6,6 +6,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 import router from './router';
 import VueTimeline from "@growthbunker/vuetimeline";
 
+var vueSmoothScroll = require('vue-smoothscroll');
+Vue.use(vueSmoothScroll);
+
 Vue.use(VueTimeline);
 Vue.use(BootstrapVue);
 

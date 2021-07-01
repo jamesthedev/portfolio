@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="appPage">
         <p class='pageTitle'>Send me an email so we can get in touch!</p>
 
         <form id="frmEmail" method="post" enctype="text/plain" disabled>

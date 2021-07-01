@@ -37,7 +37,6 @@ export default {
   #appNavBar {
     background-color: rgb(39, 39, 43);
     box-shadow: 0px 4px 7px rgb(92, 89, 110);
-    /*margin-bottom: 30px;*/
   }
 
   .navbar-nav .nav-link{
@@ -50,11 +49,5 @@ export default {
 
   .appPage {
     margin: 0% 5% 0% 5%;
-  }
-
-  @media screen and (max-width: 481px) {
-
-
-
   }
 </style>

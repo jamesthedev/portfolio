@@ -221,8 +221,8 @@ export default {
         margin-right: 25%;
         margin-left: 25%;
         padding: 2%;
-        border-radius: 15px;
-        box-shadow: 0px 0px 8px rgb(159, 151, 124);    
+        border-radius: 6px;
+        box-shadow: 0px 2px 10px rgb(159, 151, 124);
     }
 
     .emailBtns {

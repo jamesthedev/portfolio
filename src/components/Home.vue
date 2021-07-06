@@ -37,9 +37,9 @@
     >
       <div v-if="showTimeline == true" id="timelineArea">
         <vue-timeline-update
-          :date="new Date(2021, 4)"
-          title="April 2021"
-          description="Promoted to lead software developer at Delaware Nation Industries"
+          :date="new Date(2021, 5)"
+          title="May 2021"
+          description="Promoted to Lead Software Developer at Delaware Nation Industries"
           category="Work Experience"
           color="blue"
           icon="code"
@@ -62,7 +62,7 @@
         <vue-timeline-update
           :date="new Date(2020, 4)"
           title="May 2020"
-          description="Graduated summa cum laude from American Military University with a BS in IT; concentration on software development"
+          description="Graduated Summa Cum Laude from American Military University with a BS in IT; concentration on software development"
           category="Education"
           color="orange"
           icon="code"
@@ -73,7 +73,7 @@
         <vue-timeline-update
           :date="new Date(2019, 4)"
           title="May 2019"
-          description="Hired by Delaware Nation Industries to work on Tinker Air Force base as a full-stack .NET developer"
+          description="Hired by Delaware Nation Industries to work on Tinker Air Force base as a Full-Stack .NET Developer"
           category="Work Experience"
           color="blue"
           icon="code"
@@ -95,7 +95,7 @@
         <vue-timeline-update
           :date="new Date(2018, 11)"
           title="December 2018"
-          description="Hired by Rome Research Corp. to work on Tinker Air Force base as a client system support technician"
+          description="Hired by Rome Research Corp. to work on Tinker Air Force base as a Client System Support Technician"
           category="Work Experience"
           color="blue"
           icon="code"
@@ -117,7 +117,7 @@
         <vue-timeline-update
           :date="new Date(2015, 11)"
           title="December 2015"
-          description="Enlisted in the Army National Guard as a network cable systems installer/maintainer"
+          description="Enlisted in the Army National Guard as a Network Cable Systems Installer/Maintainer"
           category="Work Experience"
           color="turquoise"
           icon="code"
